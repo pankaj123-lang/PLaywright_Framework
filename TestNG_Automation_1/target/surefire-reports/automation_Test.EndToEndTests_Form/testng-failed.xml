@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automation_Test.EndToEndTests_Form]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="automation_Test.EndToEndTests_Form">
+        <methods>
+          <include name="Execution" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automation_Test.EndToEndTests_Form -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [automation_Test.EndToEndTests_Form] -->

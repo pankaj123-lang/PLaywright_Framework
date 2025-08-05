@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"App: Groww
+Sheet: Groww.xlsx
+Scenario: Login","25362","[Groww] Login Execution","automation_Test.EndToEndTests_Form","Mon Jul 28 18:48:54 IST 2025","passed","Mon Jul 28 18:49:19 IST 2025","automation_Test.EndToEndTests_Form","Command line test","automation_Test.EndToEndTests_Form","Execution"
+"App: Groww
+Sheet: Demo_Automation.xlsx
+Scenario: Transaction","27206","[Groww] Transaction Execution","automation_Test.EndToEndTests_Form","Mon Jul 28 18:49:19 IST 2025","passed","Mon Jul 28 18:49:46 IST 2025","automation_Test.EndToEndTests_Form","Command line test","automation_Test.EndToEndTests_Form","Execution"

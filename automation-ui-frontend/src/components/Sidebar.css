@@ -1,0 +1,80 @@
+.sidebar-container {
+  position: relative;
+}
+
+.hamburger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: white;
+  border-right: 1px solid #d1d5db;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: relative;
+  top: 0;
+  left: 0; /* enough space to not overlap with hamburger */
+  width: 320px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid #d1d5db;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.project-name {
+  color: #1d4ed8;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.scenario-card {
+  list-style: none;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.button-link {
+  color: #10b981;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  /* margin-right: 1rem; */
+}
+.button-link-runsuite {
+  color: #10b981;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: end;
+  margin-left: auto; /* Push the button to the right */
+  display: block; /* Ensure it behaves as a block element */
+}
+.button-link.edit {
+  color: #2563eb;
+}
+.button-link.configure {
+  color: #9333ea;
+}

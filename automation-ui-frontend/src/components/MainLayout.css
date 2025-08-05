@@ -1,0 +1,94 @@
+/* Layout */
+.app-wrapper {
+  display: flex;
+}
+body {
+  overflow-x: hidden;
+}
+.sidebar.closed {
+  width: 40px;
+  overflow: hidden;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.table-container {
+  width: 100%;
+  max-height: 70vh; /* Or a fixed height like 500px */
+  max-width: 162vh;
+  overflow-y: auto;
+  overflow-x: auto; /* Optional: allows horizontal scroll too */
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+.container {
+  transition: margin-left 0.3s ease-in-out;
+  margin-left: 200px;
+  padding: 20px;
+  width: 100%;
+}
+
+.sidebar-open {
+  margin-left: 200px;
+}
+
+.container:not(.sidebar-open) {
+  margin-left: 40px;
+}
+
+/* Table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 50vh;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.data-table th,
+.data-table td {
+  max-width: 20px; /* Adjust width per your needs */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.truncate-cell {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Button */
+.save-btn {
+  margin-bottom: 20px;
+  float: right;
+}
+.full-center-message {
+  display: flex;
+  min-width: 200vh;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of viewport */
+  font-size: 20px;
+  text-align: center;
+  color: #444;
+}
+.full-center-message span {
+  display: inline-block;
+}
+th {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}

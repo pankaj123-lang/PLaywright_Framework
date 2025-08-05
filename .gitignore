@@ -1,0 +1,5 @@
+automation-ui-frontend/node_modules/
+automation-ui-frontend/dist/
+automation-ui-frontend/.env
+/node_modules
+automation-ui-frontend/.cache/
